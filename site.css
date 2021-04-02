@@ -1,0 +1,13 @@
+#bloc_page
+{
+	font-family: 'Raleway', cursive;
+	font-size: 14px;
+}
+#basdepage
+{
+	background-color:  #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+   
