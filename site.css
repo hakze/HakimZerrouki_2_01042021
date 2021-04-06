@@ -3,11 +3,43 @@
 	font-family: 'Raleway', cursive;
 	font-size: 14px;
 }
+
+ul {
+list-style-type: none;
+display: flex;
+}
 #basdepage
 {
 	background-color:  #F2F2F2;
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
+}  
+.les_pluspopulaires
+{
+  border: 10px;
+  background-color:  #F2F2F2;
+  border-radius: 10px;
+  float: right;
+  width: 300px;
 }
-   
+img 
+{
+	width: 100px;
+	height: 100px;
+}   
+.Hébergements_à_Marseille
+{
+  border: 10px;
+  width: 1100px;
+  height: 550px;
+  background-color:  #F2F2F2;
+  border-radius: 10px
+}
+.fas
+{
+ color: #0065FC
+}
+.far
+{
+	color: #F2F2F2
+}
