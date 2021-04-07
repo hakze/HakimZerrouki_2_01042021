@@ -4,9 +4,69 @@
 	font-size: 14px;
 }
 
+h1
+{
+    font-size: 16px;
+}
+#filtre
+{
+	display: flex;
+}
+.les_pluspopulaires
+{
+  border: none;
+  background-color:  #F2F2F2;
+  border-radius: 10px;
+/*  float: right;*/
+  /*width: 24%;*/
+}
+.photo
+{
+	width: 100px;
+	height: 100px;
+}
+.photo_1
+{
+	width: 100px;
+	height: 100px;
+}
+.photo_2  
+{
+	width: 200px;
+	height: 200px;
+}
+.photo_3
+{
+	width: 200px;
+	height: 100px;
+}
+.Hébergements_à_Marseille
+{
+  
+  border: none;
+  width: 1100px;
+  height: 500px;
+  background-color:  #F2F2F2;
+  border-radius: 10px
+}
+.fas
+{
+ color: #0065FC;
+}
+.far
+{
+color: #F2F2F2;
+}
+button
+{
+background-color: #0065FC;color: white;
+}
 ul {
 list-style-type: none;
-display: flex;
+}
+figcaption
+{
+font-weight: bold;
 }
 #basdepage
 {
@@ -14,32 +74,22 @@ display: flex;
     display: flex;
     justify-content: space-between;
 }  
-.les_pluspopulaires
-{
-  border: 10px;
-  background-color:  #F2F2F2;
-  border-radius: 10px;
-  float: right;
-  width: 300px;
+.site_nav
+ {
+	display: inline-block;
 }
-img 
-{
-	width: 100px;
-	height: 100px;
-}   
-.Hébergements_à_Marseille
-{
-  border: 10px;
-  width: 1100px;
-  height: 550px;
-  background-color:  #F2F2F2;
-  border-radius: 10px
+#menu{
+	float:right; 
 }
-.fas
-{
- color: #0065FC
+#logements{
+	display: flex;
 }
-.far
+#hotel
 {
-	color: #F2F2F2
+	display: flex;
+}
+#les_activites
+{
+	display: flex;
+	flex-wrap: wrap;
 }
