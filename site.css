@@ -1,53 +1,62 @@
 #bloc_page
 {
-	font-family: 'Raleway', cursive;
-	font-size: 14px;
+font-family: 'Raleway', cursive;
+font-size: 14px;
 }
-
 h1
 {
-    font-size: 16px;
+font-size: 16px;
+}
+h2
+{
+font-size:#A9A9A9;
 }
 #filtre
 {
-	display: flex;
+display: flex;
 }
 .les_pluspopulaires
 {
-  border: none;
-  background-color:  #F2F2F2;
-  border-radius: 10px;
-/*  float: right;*/
-  /*width: 24%;*/
+border: none;
+background-color:  #F2F2F2;
+border-radius: 10px;
+margin-left:20px;
 }
 .photo
 {
-	width: 100px;
-	height: 100px;
+width: 100px;
+height: 100px;
+border-radius: 10px
 }
 .photo_1
 {
-	width: 100px;
-	height: 100px;
+width: 250px;
+height: 150px;
+border-radius: 10px;
+margin-right: 50px;
+margin-top: 20px;
 }
 .photo_2  
 {
-	width: 200px;
-	height: 200px;
+width: 300px;
+height: 300px;
+border-radius: 10px;
+margin-right: 50px
 }
 .photo_3
 {
-	width: 200px;
-	height: 100px;
+width: 300px;
+height: 150px;
+border-radius: 10px;
+margin-right: 50px; 
 }
 .Hébergements_à_Marseille
 {
-  
-  border: none;
-  width: 1100px;
-  height: 500px;
-  background-color:  #F2F2F2;
-  border-radius: 10px
+border: none;
+width: 1100px;
+height: 500px;
+background-color:  #F2F2F2;
+border-radius: 10px
 }
 .fas
 {
@@ -70,26 +79,36 @@ font-weight: bold;
 }
 #basdepage
 {
-	background-color:  #F2F2F2;
-    display: flex;
-    justify-content: space-between;
+background-color:  #F2F2F2;
+display: flex;
+justify-content: space-between;
 }  
 .site_nav
- {
-	display: inline-block;
+{
+display: inline-block;
+margin-right: 20px;
 }
-#menu{
-	float:right; 
+#menu
+{
+float:right; 
 }
 #logements{
-	display: flex;
+display: flex;
 }
 #hotel
 {
-	display: flex;
+display: flex;
 }
-#les_activites
+#lieu
 {
-	display: flex;
-	flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
+}
+a
+{
+text-decoration: none; color: #A9A9A9;
+}
+strong:hover
+{
+color: #0065FC;
 }
