@@ -11,30 +11,94 @@ h2
 {
 font-size:#A9A9A9;
 }
+button
+{
+background-color: #0065FC;color: white;
+}
+ul {
+list-style-type: none;
+}							
+a
+{
+text-decoration: none; color: #A9A9A9;
+}
+strong:hover
+{
+color: #0065FC;
+}
+
+#menu
+{
+float:right; 
+}
+.site_nav
+{
+display: inline-block;
+margin-right: 20px;
+border-color: ;
+}
+.nav
+{
+display: inline-block;
+margin-right: 20px;
+border:solid #A9A9A9;
+border-radius: 20px;
+padding: 10px 10px 10px;
+}
 #filtre
 {
 display: flex;
 }
+#logements
+{
+display: flex;
+}
+#Hébergements
+{
+border: none;
+padding: 30px;
+width: 1100px;
+height: 500px;
+background-color:  #F2F2F2;
+border-radius: 10px;
+}
+#hotel
+{
+display: flex;
+}
+.photo_1
+{
+width: 250px;
+height: 100px;
+border: solid #ffffff 4px;
+background-color:  #ffffff;
+padding-bottom: 50px;
+border-radius: 10px;
+margin-right: 50px;
+margin-top: 20px;
+}
 .les_pluspopulaires
 {
 border: none;
+padding: 20px ;
 background-color:  #F2F2F2;
 border-radius: 10px;
 margin-left:20px;
 }
 .photo
 {
+float:left;
+border: solid #ffffff 4px;
+background-color:  #ffffff;
+padding-right: 180px;	
 width: 100px;
 height: 100px;
-border-radius: 10px
-}
-.photo_1
-{
-width: 250px;
-height: 150px;
 border-radius: 10px;
-margin-right: 50px;
-margin-top: 20px;
+}
+#lieu
+{
+display: flex;
+flex-wrap: wrap;
 }
 .photo_2  
 {
@@ -50,13 +114,9 @@ height: 150px;
 border-radius: 10px;
 margin-right: 50px; 
 }
-.Hébergements_à_Marseille
+figcaption
 {
-border: none;
-width: 1100px;
-height: 500px;
-background-color:  #F2F2F2;
-border-radius: 10px
+font-weight: bold;
 }
 .fas
 {
@@ -66,49 +126,9 @@ border-radius: 10px
 {
 color: #F2F2F2;
 }
-button
-{
-background-color: #0065FC;color: white;
-}
-ul {
-list-style-type: none;
-}
-figcaption
-{
-font-weight: bold;
-}
 #basdepage
 {
 background-color:  #F2F2F2;
 display: flex;
-justify-content: space-between;
-}  
-.site_nav
-{
-display: inline-block;
-margin-right: 20px;
-}
-#menu
-{
-float:right; 
-}
-#logements{
-display: flex;
-}
-#hotel
-{
-display: flex;
-}
-#lieu
-{
-display: flex;
-flex-wrap: wrap;
-}
-a
-{
-text-decoration: none; color: #A9A9A9;
-}
-strong:hover
-{
-color: #0065FC;
-}
+justify-content: space-around;
+} 
