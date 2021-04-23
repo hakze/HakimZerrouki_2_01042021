@@ -18,12 +18,7 @@ h1
 
 }
 
-button
-{
-	background-color: #0065FC;
-	color: white;
-	border-radius: 0px 5px 5px 0px;
-}
+
 ul {
 	list-style-type: none;
 }
@@ -36,6 +31,38 @@ a
 strong:hover
 {
 	color: #0065FC;
+}
+
+.rechercher i
+{
+	font-size: 16px;
+	border: none;
+	border-radius: 10px 0px 0px 10px;
+	padding: 10px;
+	background-color: #F2F2F2;
+	color:black;
+	margin: 0px;
+}
+
+
+input
+{
+	font-size: 16px;
+	border:none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bolder;black;
+	
+}
+
+button
+{
+	font-size: 18px;
+	background-color: #0065FC;
+	color: white;
+	border: none;
+	border-radius: 0px 10px 10px 0px;
+	padding: 5px;
 }
 
 .fa
@@ -62,6 +89,7 @@ strong:hover
 	border-left: none;
 	border-radius:  20px;
 	padding-right: 10px;
+	padding-left: -5px;
 }
 
 .filtre 
@@ -212,7 +240,8 @@ strong:hover
 
 .photo_5
 {
-	border: groove 1px;
+	
+	box-shadow: 0.1px 0.1px 0.1px 0.1px #000002;
 	width: 250px;
 	height: 100px;
 	padding-bottom: 40px;
@@ -238,11 +267,6 @@ strong:hover
 }
 
 .far
-{
-	color: #F2F2F2;
-}
-
-.grise
 {
 	color: #F2F2F2;
 }
