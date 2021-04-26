@@ -1,15 +1,17 @@
 body
 {
 	width: auto;
-	padding-left: auto;
-	padding-right: auto;
+	margin: auto;	
+	font-family: 'Raleway', cursive;
+	
 }
 
 #bloc_page {
-	font-family: 'Raleway', cursive;
+
 	font-size: 14px;
-	margin-right: 110px; 
-	margin-left: 110px;
+	margin-right: 30px; 
+	margin-left: 30px;
+	
 }
 
 h1
@@ -28,7 +30,7 @@ a
 	text-decoration: none; color: #A9A9A9;
 }
 
-strong:hover
+a:hover
 {
 	color: #0065FC;
 }
@@ -40,7 +42,7 @@ strong:hover
 	border-radius: 10px 0px 0px 10px;
 	padding: 10px;
 	background-color: #F2F2F2;
-	color:black;
+	color:#000000;
 	margin: 0px;
 }
 
@@ -51,8 +53,8 @@ input
 	border:none;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-weight: bolder;black;
-	
+	font-weight: bolder ;
+	color: #000000;	
 }
 
 button
@@ -110,25 +112,24 @@ button
 .Hebergements
 {
 	border: none;
-	padding: 20px 0px 0px 50px;
+	padding: 20px -0px 0px 50px;
 	width: auto;
 	height: auto;
 	background-color:  #F2F2F2;
-	border-radius: 10px;
-	margin-left: 10px;
-	margin-right:40px;
+	border-radius: 20px;
+	margin-right:45px;
 }
 
 .photo_1
 {
-	width: 180px;
-	height: 100px;
+	width: 235px;
+	height: 110px;
 	border: solid #ffffff 4px;
 	background-color:  #ffffff;
 	padding-bottom: 60px;
-	border-radius: 10px;
-	margin-right: 50px;
-	margin-top: 10px;
+	border-radius: 20px;
+	margin-right: 45px;
+	margin-top: 0px;
 }
 
 .contenant_1
@@ -145,12 +146,11 @@ button
 
 .les_plus_populaires
 {
-	height: auto;
+	
 	border: none;
-	padding: 20px 40px 0px 50px;
+	padding: 20px 45px 0px 45px;
 	background-color:  #F2F2F2;
-	border-radius: 10px;
-	margin-right: 20px;
+	border-radius:20px;
 }
 
 .photo_2
@@ -158,9 +158,10 @@ button
 	border: solid #ffffff 4px;
 	background-color:  #ffffff;
 	padding-right: 180px;	
-	width: 100px;
-	height: 100px;
-	border-radius: 10px;
+	width: 120px;
+	height: 130px;
+	border-radius: 20px;
+	margin-bottom: -30px;
 }
 
 .contenant_2
@@ -170,23 +171,21 @@ button
 
 .texte_2
 {
-	position: relative     ;
-	left: 110px;
+	position: relative;
+	left: 140px;
 	bottom: 100px;
 }
 
 .star
 {
 	position: relative;
-	
-	top: 20px;
+	top: 50px;
 }
 
 .les_activites
 {
 	margin-top: 50px ;
 	margin-bottom: 30px;
-	padding-left: 50px;
 }
 .lieu
 {
@@ -196,12 +195,12 @@ button
 
 .photo_3
 {
-	border: groove 1px;
-	margin-right: 40px;
-	height: 320px;
-	width: 250px;
+	box-shadow: 0 0 16px #0000002e;
+	margin-right: 50px;
+	height: 420px;
+	width: 300px;
 	padding-bottom: 40px;
-	border-radius: 10px;
+	border-radius: 20px;
 }
 
 .contenant_3
@@ -211,19 +210,20 @@ button
 
 .texte_3
 {
-	position: relative     ;
+	position: relative;
 	left: 10px;
-	bottom: 35px;
+	bottom: 32px;
 }
 
 .photo_4
 {
-	border: groove 1px;
-	margin-right: 40px;
-	width: 250px;
-	height: 150px;
+	box-shadow: 0 0 16px #0000002e;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	width: 300px;
+	height: 190px;
 	padding-bottom: 40px;
-	border-radius: 10px;
+	border-radius: 20px;
 	
 }
 .contenant_4
@@ -233,19 +233,19 @@ button
 
 .texte_4
 {
-	position: relative     ;
+	position: relative;
 	left: 10px;
-	bottom: 35px;
+	bottom: 50px;
 }
 
 .photo_5
 {
 	
-	box-shadow: 0.1px 0.1px 0.1px 0.1px #000002;
-	width: 250px;
-	height: 100px;
+	box-shadow: 0 0 16px #0000002e;
+	width: 300px;
+	height: 150px;
 	padding-bottom: 40px;
-	border-radius: 10px;
+	border-radius: 20px;
 
 }
 
@@ -256,9 +256,54 @@ button
 
 .texte_5
 {
-	position: relative     ;
+	position: relative;
 	left: 10px;
-	bottom: 35px;
+	bottom: 32px;
+}
+
+.photo_6
+{
+	
+	box-shadow: 0 0 16px #0000002e;
+	width: 300px;
+	height: 150px;
+	padding-bottom: 40px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+.contenant_6
+{
+	position: static;
+}
+
+.texte_6
+{
+	position: relative;
+	left: 10px;
+	bottom: 50px;
+}
+
+.photo_7
+{
+	box-shadow: 0 0 16px #0000002e;
+	margin-bottom: 20px;
+	width: 300px;
+	height: 190px;
+	padding-bottom: 40px;
+	border-radius: 20px;
+	
+}
+.contenant_7
+{
+	position: static;
+}
+
+.texte_7
+{
+	position: relative;
+	left: 10px;
+	bottom: 50px;
 }
 
 .fas
