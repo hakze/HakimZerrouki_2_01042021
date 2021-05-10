@@ -1,0 +1,221 @@
+@media  screen and (max-width: 974px)
+{
+    body
+    {
+    	width: auto;
+    	font-size: 15px;
+    	margin-left: 0px;
+    	margin-right: 0px;
+    }
+
+    #bloc_page 
+	{	
+		
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.menufix
+	{
+
+		margin-left: 20px;
+	}
+
+	.menu
+	{
+		
+	}
+
+	.logo
+	{
+		font-size: 10px;
+		margin-right: 50px;
+		display: flex;
+		flex-direction: wrap
+	}
+	#site_nav_1
+	{   
+		
+		border-top: none;
+		border-bottom: solid;
+		border-color: #0065FC;
+		padding-bottom: 10px;	
+	}
+
+	.filtre 
+	{ 
+		font-size: 17px;
+		display: inline-block;	
+		flex-direction: column;	
+	}
+
+	ul
+	{
+		margin-left: -40px;
+	}
+
+	.nav
+	{
+			
+		border: solid 3px #F2F2F2;
+		border-left: none;
+		border-radius:  30px;
+		padding-right: 20px;
+		padding-left: -5px;		
+		margin: 0px 20px 20px 0px;	
+	}
+
+	
+
+	.site_nav
+	{
+
+		
+		
+	}
+
+	button
+	{
+		fas fa-search;
+	}
+
+	.information
+	{
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	#logements
+	{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+    .hotel
+    {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.Hebergements
+	{
+		border: none;
+		border-radius: 0px;
+		width: 375px;
+		height: auto;
+		padding-left: 20px;
+		padding-right: 0px;
+		background-color: #fff ;
+	}
+
+	.photo_1
+	{
+		box-shadow: 0 0 16px #0000002e;
+		width: 335px;
+		height: 110px;
+		border: solid #ffffff;
+		background-color:  #ffffff;		
+	}
+
+	.les_plus_populaires
+	{
+		width: auto;
+		border: none;
+		background-color:  #F2F2F2;
+		border-radius: 0px;
+		padding-left: 20px;
+		padding-right: -20px;
+	}
+
+	.photo_2
+	{
+		box-shadow: 0 0 16px #0000002e;
+		border: solid #ffffff ;
+		background-color:  #ffffff;
+		padding-right: 215px;	
+		width: 120px;
+		height: 130px;
+		border-radius: 20px;
+		
+	}
+
+	.les_activites
+	{
+		margin-left: 20px;
+		
+	}
+
+	.lieu
+	{
+		display: flex;
+		flex-direction: column;
+		margin-top: 0px;
+	}
+
+	.photo_3
+	{
+		box-shadow: 0 0 16px #0000002e;
+		margin-right: 30px;
+		height: 110px;
+		width: 335px;
+		padding-bottom: 50px;
+		border-radius: 20px;
+	}
+
+	.photo_4
+	{
+		box-shadow: 0 0 16px #0000002e;
+		margin-right: 30px;
+		margin-bottom: 10px;
+		width: 335px;
+		height: 110px;
+		padding-bottom: 50px;
+		border-radius: 20px;
+		
+	}
+
+	.photo_5
+	{		
+		box-shadow: 0 0 16px #0000002e;
+		width: 335px;
+		height: 110px;
+		padding-bottom: 50px;
+		border-radius: 20px;
+	}
+
+	.photo_6
+	{
+		box-shadow: 0 0 16px #0000002e;
+		width: 335px;
+		height: 110px;
+		padding-bottom: 50px;
+		border-radius: 20px;
+		margin-bottom: 10px;
+	}
+
+	.photo_7
+	{
+		box-shadow: 0 0 16px #0000002e;
+		margin-bottom: 20px;
+		width: 335px;
+		height: 110px;
+		padding-bottom: 50px;
+		border-radius: 20px;
+		
+	}
+
+	#basdepage
+	{	
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		font-size: 14px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		padding-left: 30px;
+		background-color:  #F2F2F2;
+		line-height: 25px;
+	} 
+
+}
