@@ -85,6 +85,12 @@ button
 	padding: 11px;
 }
 
+button a
+{
+	text-decoration: none;
+	color: #ffffff
+}
+
 .rechercher i
 {	
 	border-radius: 10px 0px 0px 10px;
@@ -108,6 +114,7 @@ button
 	border-left: none;
 	border-radius:  30px;
 	padding-right: 20px;
+	color: black;
 }
 
 .nav a
@@ -119,6 +126,7 @@ button
 .nav:hover
 {
 	background: #DEEBFF;
+	transform: scale(1.07);
 }
 
 #icone_eco ,.fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog
@@ -197,6 +205,13 @@ button
 	color: black;
 }
 
+.contenant_1:hover
+{
+	
+	transform: scale(1.07);
+}
+
+
 .texte_1
 {
 	position: relative;
@@ -246,6 +261,12 @@ button
 	color: black;
 }
 
+.contenant_2:hover
+{
+	
+	transform: scale(1.07);
+}
+
 .texte_2
 {
 	position: relative;
@@ -293,6 +314,12 @@ button
 	color: black;
 }
 
+.contenant_3:hover
+{
+	
+	transform: scale(1.07);
+}
+
 .texte_3
 {
 	position: relative;
@@ -322,6 +349,12 @@ button
 	color: black;
 }
 
+.contenant_4:hover
+{
+	
+	transform: scale(1.07);
+}
+
 .texte_4
 {
 	position: relative;
@@ -347,6 +380,12 @@ button
 {
 	text-decoration: none;
 	color: black;
+}
+
+.contenant_5:hover
+{
+	
+	transform: scale(1.07);
 }
 
 .texte_5
@@ -377,6 +416,12 @@ button
 	color: black;
 }
 
+.contenant_6:hover
+{
+	
+	transform: scale(1.07);
+}
+
 .texte_6
 {
 	position: relative;
@@ -403,6 +448,12 @@ button
 {
 	text-decoration: none;
 	color: black;
+}
+
+.contenant_7:hover
+{
+	
+	transform: scale(1.07);
 }
 
 .texte_7

@@ -37,10 +37,20 @@
 	{   
 		
 		border-top: none;
-		border-bottom: solid;
+		border-bottom: solid 3px;
 		border-color: #0065FC;
 		padding-bottom: 10px;	
 	}
+
+	#site_nav_2
+	{   
+		
+		border-top: none;
+		border-bottom: solid 3px;
+		border-color: #A9A9A9;
+		padding-bottom: 10px;	
+	}
+
 
 	.filtre 
 	{ 
