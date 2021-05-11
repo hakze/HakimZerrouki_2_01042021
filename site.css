@@ -3,6 +3,7 @@ body
 	width: auto;
 	font-family: 'Raleway', cursive;
 	font-size: 15px;
+	margin: 0px;
 }
 
 #bloc_page 
@@ -34,7 +35,7 @@ ul {
 
 .logo
 {
-	width: 10px;
+	
 	margin-right: 630px;
 }
 
@@ -51,7 +52,7 @@ ul {
 }
 
 
-#site_nav_1
+.site_nav_1
 {
 	border-top: solid;
 	border-color: #0065FC;
@@ -89,6 +90,15 @@ button a
 {
 	text-decoration: none;
 	color: #ffffff
+}
+
+.rechercher .fa-search
+{
+    height: 0px;
+	background-color: #0065FC;
+	color:#ffffff;
+	padding-top: 0px;
+	display: none;
 }
 
 .rechercher i
@@ -162,7 +172,12 @@ button a
 	display: flex;
 }
 
-.hotel
+.hotel_1
+{
+	display: flex;
+}
+
+.hotel_2
 {
 	display: flex;
 }
@@ -472,6 +487,12 @@ button a
 {
 	color: #F2F2F2;
 }
+
+#basdepage h3
+{
+	font-size: 16px;
+}
+
 
 #basdepage
 {
