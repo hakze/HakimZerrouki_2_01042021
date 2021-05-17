@@ -1,42 +1,49 @@
-body
-{
+body {
 	width: auto;
 	font-family: 'Raleway', cursive;
 	font-size: 15px;
 	margin: 0px;
 }
 
-#bloc_page 
-{
+#bloc_page {
 	margin-left: 110px;
 	margin-right: 110px;
 }
 
-h1
-{
+h1 {
 	font-size: 18px;
 }
 
-h2
-{
+h2 {
+	
 	font-size: 14px;
 }
 
 ul {
+	
 	list-style-type: none;
 }
 
-.menu
-{
+.menu {
+	
 	display: flex;
 	justify-content: left;
 	align-items: center;
 }
 
-.logo
-{
+.logo {
 	
 	margin-right: 630px;
+}
+
+.menu_mobile {
+	
+	display: none;
+}
+
+.nav_mobile
+{
+	display: none;
 }
 
 .site_nav
@@ -52,12 +59,17 @@ ul {
 }
 
 
-.site_nav_1
+#site_nav_1
 {
 	border-top: solid;
 	border-color: #0065FC;
 	padding: 35px 20px;
 	margin-top: -35px
+}
+
+.texte_mobile{
+
+	display: none;
 }
 
 input
@@ -127,10 +139,15 @@ button a
 	color: black;
 }
 
+.nav strong{
+
+	margin-left: -5px;
+}
 .nav a
 {
 	text-decoration: none;
 	color: black;
+	margin-left: -5px;
 }
 
 .nav:hover
@@ -154,7 +171,6 @@ button a
 	display: flex;
 	align-items: center;
 	margin-bottom: 20px;
-
 } 
 
 .info
@@ -194,6 +210,21 @@ button a
 	padding-left: 30px;
 }
 
+.mobile
+{
+ 	box-shadow: 0 0 16px #0000002e;
+	width: 235px;
+	height: 110px;
+	border: solid #ffffff 4px;
+	background-color:  #ffffff;
+	padding-bottom: 70px;
+	border-radius: 20px;
+	margin-right: 30px;
+	margin-bottom: -30px;
+	display: none;
+}	
+
+
 .photo_1
 {
 	box-shadow: 0 0 16px #0000002e;
@@ -205,7 +236,6 @@ button a
 	border-radius: 20px;
 	margin-right: 30px;
 	margin-bottom: -30px;
-
 }
 
 .contenant_1
@@ -249,7 +279,6 @@ button a
 	display:inline-flex;
 	margin-right: 120px;
 }
-
 
 .photo_2
 {
@@ -306,6 +335,17 @@ button a
 {
 	display: flex;
 	margin-top: 20px;
+}
+
+.mobile_1
+{
+	box-shadow: 0 0 16px #0000002e;
+	margin-right: 0px;
+	height: 110px;
+	width: 335px;
+	padding-bottom: 50px;
+	border-radius: 20px;
+	display: none;
 }
 
 .photo_3
@@ -466,8 +506,7 @@ button a
 }
 
 .contenant_7:hover
-{
-	
+{	
 	transform: scale(1.07);
 }
 

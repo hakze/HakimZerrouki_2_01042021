@@ -1,75 +1,131 @@
-@media  all and (max-width: 974px)
-{
-    body
-    {
-    	width: 375px 812px;
+@media  all and (max-width: 1024px) {
+    
+    body {
+    
+    	width: 375px 1024px;
     	font-size: 15px;
     	display: block;
     	margin:  0px;
     }
 
-    #bloc_page 
-	{	
+    #bloc_page {	
+		
 		width: auto;
 		margin: 0px;
-
 	}
 
-	.menufix
-	{
-		width: auto;
+	.menufix {
+		
+		width: 100%;
 		margin-left: 20px;
+		margin-bottom: 50px;
 	}
 
-	.menu
-	{
+	.menu {
 		
+		display: none;
 	}
 
-	.logo
-	{
+	.menu_mobile {
+
+		display:block;
+		width: 100%;
+	}
+
+	.logo {
 		font-size: 10px;
-		margin-right: 0px;
 	}
+
+	.logo_texte_mobile {
+
+		font-size: 18px;
+		text-decoration: none;
+		color: #0065FC;
+		float: right;
+		margin-inline-end: -50px;
+		padding-top: 20px;
+	}
+
+	.nav_mobile {
+
+		display: flex;
+		width: auto;
+
+	}
+
+	.nav_mobile ul{
+
+		display: flex;
+	}
+
+	.logo {
+		
+		font-size: 10px;
+		margin-right: 60px;
+		
+	}
+
+	#site_nav-mobile a {
+		
+		font-size: 18px;
+		text-decoration: none;
+	    color: #0065FC; 
+	    width: 100%;
+	}
+
 	
-	#site_nav_1
-	{   
+	.site_nav-mobile_1 {   
 		
-		border-top: none;
-		border-bottom: solid 3px;
-		border-color: #0065FC;
-		padding: 10px 0px;	
+		
+		padding: 0px 54px 10px 54px;
+		border-bottom: 3px solid #0065FC;
+		margin-top: 20px;
 	}
 
-	#site_nav_2
-	{   
+	.site_nav-mobile_2 {   
 		
-		border-top: none;
-		border-bottom: solid 3px;
-		border-color: #A9A9A9;
-		padding-bottom: 10px;	
+		padding: 0px 54px 10px 54px;
+		border-bottom: 3px solid #F2F2F2;
+		margin-top: 20px;	
 	}
 
-	#site_nav_3
-	{
-		
+	.texte_mobile {
+
+		display: block;
 		
 	}
+	.texte_mobile h1 {
 
-	.filtre 
-	{ 
-		font-size: 17px;
+		font-size: 20px;
+	}
+
+	.texte_mobile {
+
+		margin-bottom: 30px;
+	}
+
+	.texte {
+
+		display: none;
+	}
+
+	.filtre { 
+		font-size: 18px;
 		display: inline-block;	
 		flex-direction: column;	
+		margin-top: 30px;	
 	}
 
-	ul
-	{
-		margin-left: -40px;
+	.filtre h2 {
+
+		font-size: 18px;
 	}
 
-	.nav
-	{
+	ul {
+		margin-left: -55px;
+	}
+
+	.nav {
 			
 		border: solid 3px #F2F2F2;
 		border-left: none;
@@ -77,133 +133,181 @@
 		padding-right: 20px;
 		padding-left: -5px;		
 		margin: 0px 0px 20px 0px;	
+		margin-left: 16px;
+	}
+	
+	button a {
+		text-decoration: none;
+		color: #ffffff;
+		display: none;
+		
 	}
 
-	
+	.rechercher i {
 
-	.site_nav
-	{
-
-		
-		
+		font-size: 20px;
+		padding: 30px
+		border-radius: 30px 0px 0px 30px;
 	}
 
-	
-	button a
-{
-	text-decoration: none;
-	color: #ffffff;
-	display: none;
-	
-}
+	input {
 
-	.rechercher .fa-search
-	{
-	    height: 0px;
+		padding-top: 16px;
+	}
+
+	.rechercher .fa-search {
+	   
 		background-color: #0065FC;
 		color:#ffffff;
-
 		padding-top: 0px;
 		padding-left: 0px;
 		padding-right: 0px;
 		padding-bottom: 16px;
-		border-radius: 20px;
+		border-radius: 20px 20px 20px 20px;
 		display: flex;
 	}
 
-	.information
-	{
+	button {
+
+		padding: 13px;
+    	padding-bottom: 16px;
+    	border-radius: 10px;
+	}
+
+	.information {
 		display: flex;
-		align-items: center;
 		margin-bottom: 20px;
 	}
 
-	#logements
-	{
+	#logements {
 		display: flex;
 		flex-direction: column-reverse;
 	}
 
     
-    .hotel_1
-	{
+    .hotel_1 {
 		display: flex;
 		flex-direction: column;
 	}
 
-	.hotel_2
-	{
+	.hotel_2 {
 		display: flex;
 		flex-direction: column;
 	}
-	.Hebergements
-	{
+
+	.Hebergements {
 		border: none;
 		border-radius: 0px;
 		width: auto;
 		height: auto;
 		padding-left: 20px;
-		
 		background-color: #ffffff;
+		margin-bottom: -20px;
 	}
 
-	.photo_1
-	{
+	.mobile {
+		box-shadow: 0 0 16px #0000002e;
+		width: 355px;
+		height: 110px;
+		border: solid #ffffff 4px;
+		background-color:  #ffffff;
+		padding-bottom: 70px;
+		border-radius: 20px;
+		margin-right: 30px;
+		margin-bottom: -30px;
+		display: flex;
+	}
+
+	.Hebergements h1 {
+
+		margin-bottom: 30px;
+	}
+
+	.contenant_1 {
+
+		margin-bottom: -10px;
+	}
+
+	.photo_1 {
 		box-shadow: 0 0 16px #0000002e;
 		width: 335px;
 		height: 110px;
 		border: solid #ffffff;
-		background-color:  #ffffff;		
+		background-color:  #ffffff;
+		display: none;		
 	}
 
-	.les_plus_populaires
-	{
-		width: auto;
+	.les_plus_populaires {
+		width: 100%;
 		border: none;
 		background-color:  #F2F2F2;
 		border-radius: 0px;
 		padding-left: 20px;
-		padding-right: 0px;
+		padding-right: 20px;
+		padding-bottom: 20px;	
 	}
+ 	
+ 	.les_plus_populaires h1{
 
-	.photo_2
-	{
+ 		margin-bottom: 30px;
+ 	}
+
+
+	.photo_2 {
 		box-shadow: 0 0 16px #0000002e;
-		border: solid #ffffff ;
+		border: solid #ffffff 4px ;
 		background-color:  #ffffff;
 		padding-right: 215px;	
-		width: 120px;
-		height: 130px;
+		width: 140px;
+		height: 150px;
 		border-radius: 20px;
-		
+	}
+	
+	.contenant_2 {
+
+		margin-bottom: 10px;
 	}
 
-	.les_activites
-	{   
+	.texte_2 {
+		position: relative;
+		
+		left: 160px;
+		bottom: 90px;
+		line-height: 20px;
+	}
+
+	.les_activites {   
 		width: auto;
-		margin-left: 20px;
-		
+		margin-left: 20px;		
 	}
 
-	.lieu
-	{
+	.lieu {
 		display: flex;
 		flex-direction: column;
 		margin-top: 0px;
 	}
 
-	.photo_3
-	{
+	.mobile_1 {
+		box-shadow: 0 0 16px #0000002e;
+		margin-right: 0px;
+		height: 110px;
+		width: 359px;
+		padding-bottom: 50px;
+		border-radius: 20px;
+		display: flex; 
+	}
+
+	.photo_3 {
 		box-shadow: 0 0 16px #0000002e;
 		margin-right: 0px;
 		height: 110px;
 		width: 335px;
 		padding-bottom: 50px;
 		border-radius: 20px;
+		display: none;
 	}
 
-	.photo_4
-	{
+	.photo_4 {
 		box-shadow: 0 0 16px #0000002e;
 		margin-right: 0px;
 		margin-bottom: 10px;
@@ -211,51 +315,61 @@
 		height: 110px;
 		padding-bottom: 50px;
 		border-radius: 20px;
-		
+		display: none;
 	}
 
-	.photo_5
-	{		
+	.photo_5 {		
 		box-shadow: 0 0 16px #0000002e;
 		width: 335px;
 		height: 110px;
 		padding-bottom: 50px;
 		border-radius: 20px;
+		display: none;
 	}
 
-	.photo_6
-	{
+	.photo_6 {
 		box-shadow: 0 0 16px #0000002e;
 		width: 335px;
 		height: 110px;
 		padding-bottom: 50px;
 		border-radius: 20px;
 		margin-bottom: 10px;
+		display: none;
 	}
 
-	.photo_7
-	{
+	.texte_6 {
+		position: relative;
+		left: 20px;
+		bottom: 35px;
+	}
+
+	.photo_7 {
 		box-shadow: 0 0 16px #0000002e;
 		margin-bottom: 20px;
 		width: 335px;
 		height: 110px;
 		padding-bottom: 50px;
 		border-radius: 20px;
-		
+		display: none;		
 	}
 
-	#basdepage
-	{	
-		width: auto;
+	.texte_7 {
+		position: relative;
+		left: 20px;
+		bottom: 35px;
+	}
+
+	#basdepage {	
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		font-size: 14px;
 		padding-top: 25px;
 		padding-bottom: 25px;
-		padding-left: 20px;
+		padding-left: 40px;
 		background-color:  #F2F2F2;
 		line-height: 25px;
+		margin-right: 0px;
 	} 
-
 }
 
