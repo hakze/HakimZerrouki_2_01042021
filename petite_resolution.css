@@ -1,8 +1,7 @@
 @media  all and (max-width: 1024px) {
     
     body {
-    
-    	width: 375px 1024px;
+    	width: 375px 812px;
     	font-size: 15px;
     	display: block;
     	margin:  0px;
@@ -33,6 +32,7 @@
 	}
 
 	.logo {
+		
 		font-size: 10px;
 	}
 
@@ -53,7 +53,7 @@
 
 	}
 
-	.nav_mobile ul{
+	.nav_mobile ul {
 
 		display: flex;
 	}
@@ -75,7 +75,6 @@
 
 	
 	.site_nav-mobile_1 {   
-		
 		
 		padding: 0px 54px 10px 54px;
 		border-bottom: 3px solid #0065FC;
@@ -195,7 +194,7 @@
 		flex-direction: column;
 	}
 
-	.Hebergements {
+	.hebergements {
 		border: none;
 		border-radius: 0px;
 		width: auto;
@@ -203,6 +202,11 @@
 		padding-left: 20px;
 		background-color: #ffffff;
 		margin-bottom: -20px;
+	}
+
+	.hebergements h1 {
+
+		margin-bottom: 30px;
 	}
 
 	.mobile {
@@ -216,11 +220,6 @@
 		margin-right: 30px;
 		margin-bottom: -30px;
 		display: flex;
-	}
-
-	.Hebergements h1 {
-
-		margin-bottom: 30px;
 	}
 
 	.contenant_1 {
@@ -247,7 +246,7 @@
 		padding-bottom: 20px;	
 	}
  	
- 	.les_plus_populaires h1{
+ 	.les_plus_populaires h1 {
 
  		margin-bottom: 30px;
  	}
@@ -269,25 +268,28 @@
 	}
 
 	.texte_2 {
-		position: relative;
 		
+		position: relative;
 		left: 160px;
 		bottom: 90px;
 		line-height: 20px;
 	}
 
 	.les_activites {   
+
 		width: auto;
 		margin-left: 20px;		
 	}
 
 	.lieu {
+
 		display: flex;
 		flex-direction: column;
 		margin-top: 0px;
 	}
 
 	.mobile_1 {
+
 		box-shadow: 0 0 16px #0000002e;
 		margin-right: 0px;
 		height: 110px;
@@ -298,6 +300,7 @@
 	}
 
 	.photo_3 {
+
 		box-shadow: 0 0 16px #0000002e;
 		margin-right: 0px;
 		height: 110px;
@@ -308,6 +311,7 @@
 	}
 
 	.photo_4 {
+
 		box-shadow: 0 0 16px #0000002e;
 		margin-right: 0px;
 		margin-bottom: 10px;
@@ -319,6 +323,7 @@
 	}
 
 	.photo_5 {		
+
 		box-shadow: 0 0 16px #0000002e;
 		width: 335px;
 		height: 110px;
@@ -328,6 +333,7 @@
 	}
 
 	.photo_6 {
+
 		box-shadow: 0 0 16px #0000002e;
 		width: 335px;
 		height: 110px;
@@ -338,12 +344,14 @@
 	}
 
 	.texte_6 {
+
 		position: relative;
 		left: 20px;
 		bottom: 35px;
 	}
 
 	.photo_7 {
+	
 		box-shadow: 0 0 16px #0000002e;
 		margin-bottom: 20px;
 		width: 335px;
@@ -354,12 +362,14 @@
 	}
 
 	.texte_7 {
+
 		position: relative;
 		left: 20px;
 		bottom: 35px;
 	}
 
 	#basdepage {	
+	
 		width: 100%;
 		display: flex;
 		flex-direction: column;

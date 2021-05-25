@@ -33,7 +33,7 @@ ul {
 
 .logo {
 	
-	margin-right: 630px;
+	margin-right: 620px;
 }
 
 .menu_mobile {
@@ -41,39 +41,39 @@ ul {
 	display: none;
 }
 
-.nav_mobile
-{
+.nav_mobile {
+	
 	display: none;
 }
 
-.site_nav
-{
+.site_nav {
+
 	display: inline-block;
 	margin-left: 70px;
 }
 
-.site_nav a
-{
+.site_nav a {
+
 	text-decoration:none;
 	color: #0065FC;
 }
 
 
-#site_nav_1
-{
+#site_nav_1 {
+
 	border-top: solid;
 	border-color: #0065FC;
 	padding: 35px 20px;
-	margin-top: -35px
+	margin-top: -30px
 }
 
-.texte_mobile{
+.texte_mobile {     
 
 	display: none;
 }
 
-input
-{
+input {
+
 	font-size: 15px;	
 	font-weight: bolder ;
 	color: #000000;		
@@ -88,8 +88,8 @@ input
     margin-left: -5px;
 }
 
-button
-{
+button {
+	
 	font-size: 15px;
 	background-color: #0065FC;
 	color: white;
@@ -98,14 +98,14 @@ button
 	padding: 11px;
 }
 
-button a
-{
+button a {
+	
 	text-decoration: none;
 	color: #ffffff
 }
 
-.rechercher .fa-search
-{
+.rechercher .fa-search {
+
     height: 0px;
 	background-color: #0065FC;
 	color:#ffffff;
@@ -113,23 +113,23 @@ button a
 	display: none;
 }
 
-.rechercher i
-{	
+.rechercher i {
+
 	border-radius: 10px 0px 0px 10px;
 	padding: 13px 13px 13px 13px;
 	background-color: #F2F2F2;
 	color:#000000;
 }
 
-.filtre 
-{ 
+.filtre {
+
 	font-size: 15px;
 	display: flex;
 	align-items: center;
 }
 
-.nav
-{
+.nav {
+
 	display: inline-block;
 	margin-right: 30px;
 	border: solid 3px #F2F2F2;
@@ -139,42 +139,42 @@ button a
 	color: black;
 }
 
-.nav strong{
+.nav strong {
 
 	margin-left: -5px;
 }
-.nav a
-{
+.nav a {
+
 	text-decoration: none;
 	color: black;
 	margin-left: -5px;
 }
 
-.nav:hover
-{
+.nav:hover {
+
 	background: #DEEBFF;
 	transform: scale(1.07);
 }
 
-#icone_eco ,.fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog
-{
+#icone_eco ,.fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog {
+
 	margin-left: -10px;
 }
 
-.fa
-{
+.fa {
+
 	color: #DEEBFF;
 }
 
-.information
-{
+.information {
+
 	display: flex;
 	align-items: center;
 	margin-bottom: 20px;
 } 
 
-.info
-{
+.info {
+
 	border:solid 3px;
 	border-color: #F2F2F2;
 	width: 10px;
@@ -183,23 +183,23 @@ button a
 	margin-right: 10px;
 }
 
-#logements
-{
+#logements {
+
 	display: flex;
 }
 
-.hotel_1
-{
+.hotel_1 {
+
 	display: flex;
 }
 
-.hotel_2
-{
+.hotel_2{
+
 	display: flex;
 }
 
-.Hebergements
-{
+.hebergements {
+
 	border: none;
 	padding: 20px 0px 0px 50px;
 	width: auto;
@@ -210,8 +210,8 @@ button a
 	padding-left: 30px;
 }
 
-.mobile
-{
+.mobile {
+
  	box-shadow: 0 0 16px #0000002e;
 	width: 235px;
 	height: 110px;
@@ -225,8 +225,8 @@ button a
 }	
 
 
-.photo_1
-{
+.photo_1 {
+
 	box-shadow: 0 0 16px #0000002e;
 	width: 235px;
 	height: 110px;
@@ -238,50 +238,48 @@ button a
 	margin-bottom: -30px;
 }
 
-.contenant_1
-{
+.contenant_1 {
+
 	position: static;
 	
 }
 
-.contenant_1 a
-{
+.contenant_1 a {
+
 	text-decoration: none;
 	color: black;
 }
 
-.contenant_1:hover
-{
-	
-	transform: scale(1.07);
+.contenant_1:hover {
+
+		transform: scale(1.07);
 }
 
 
-.texte_1
-{
+.texte_1 {
+
 	position: relative;
 	left: 20px;
 	bottom:	40px;
 	line-height: 20px;text-decoration: none;
-
 }
 
-.les_plus_populaires
-{
+.les_plus_populaires {
+
 	border: none;
 	padding: 20px 30px 0px 30px;
 	background-color:  #F2F2F2;
 	border-radius:20px;
 }
 
-.les_plus_populaires h1
-{
+.les_plus_populaires h1 {
+
 	display:inline-flex;
 	margin-right: 120px;
 }
 
-.photo_2
-{
+.photo_2 {
+
 	box-shadow: 0 0 16px #0000002e;
 	border: solid #ffffff 4px;
 	background-color:  #ffffff;
@@ -292,53 +290,52 @@ button a
 	margin-bottom: -50px;
 }
 
-.contenant_2
-{
+.contenant_2 {
+
 	position: static;
 	width: 150px;
 	height: 165px
 }
 
-.contenant_2 a
-{
+.contenant_2 a {
+
 	text-decoration: none;
 	color: black;
 }
 
-.contenant_2:hover
-{
+.contenant_2:hover {
 	
 	transform: scale(1.07);
 }
 
-.texte_2
-{
+.texte_2 {
+
 	position: relative;
-	
 	left: 140px;
 	bottom: 80px;
 	line-height: 20px;
 }
 
-.star
-{
+.star {
+	
 	position: relative;
 	top: 40px;
 }
 
-.les_activites
-{
+.les_activites {
+
 	margin-top: 50px ;
 	margin-bottom: 30px;
 }
-.lieu
-{
+
+.lieu{
+
 	display: flex;
 	margin-top: 20px;
 }
 
-.mobile_1
-{
+.mobile_1 {
+
 	box-shadow: 0 0 16px #0000002e;
 	margin-right: 0px;
 	height: 110px;
@@ -348,8 +345,8 @@ button a
 	display: none;
 }
 
-.photo_3
-{
+.photo_3 {
+
 	box-shadow: 0 0 16px #0000002e;
 	margin-right: 30px;
 	height: 420px;
@@ -358,67 +355,65 @@ button a
 	border-radius: 20px;
 }
 
-.contenant_3
-{
+.contenant_3 {
+
 	position: static;
 }
 
-.contenant_3 a
-{
+.contenant_3 a {
+
 	text-decoration: none;
 	color: black;
 }
 
-.contenant_3:hover
-{
+.contenant_3:hover {
 	
 	transform: scale(1.07);
 }
 
-.texte_3
-{
+.texte_3 {
+
 	position: relative;
 	left: 20px;
 	bottom: 35px;
 }
 
-.photo_4
-{
+.photo_4 {
+
 	box-shadow: 0 0 16px #0000002e;
 	margin-right: 30px;
 	margin-bottom: 10px;
 	width: 290px;
 	height: 190px;
 	padding-bottom: 50px;
-	border-radius: 20px;
-	
+	border-radius: 20px;	
 }
-.contenant_4
-{
+
+.contenant_4 {
+
 	position: static;
 }
 
-.contenant_4 a
-{
+.contenant_4 a {
+
 	text-decoration: none;
 	color: black;
 }
 
-.contenant_4:hover
-{
+.contenant_4:hover {
 	
 	transform: scale(1.07);
 }
 
-.texte_4
-{
+.texte_4 {
+
 	position: relative;
 	left: 20px;
 	bottom: 45px;
 }
 
-.photo_5
-{	
+.photo_5 {
+
 	box-shadow: 0 0 16px #0000002e;
 	width: 290px;
 	height: 150px;
@@ -426,32 +421,31 @@ button a
 	border-radius: 20px;
 }
 
-.contenant_5
-{
+.contenant_5 {
+
 	position: static;
 }
 
-.contenant_5 a
-{
+.contenant_5 a {
+
 	text-decoration: none;
 	color: black;
 }
 
-.contenant_5:hover
-{
+.contenant_5:hover {
 	
 	transform: scale(1.07);
 }
 
-.texte_5
-{
+.texte_5 {
+
 	position: relative;
 	left: 20px;
 	bottom: 35px;
 }
 
-.photo_6
-{
+.photo_6 {
+
 	box-shadow: 0 0 16px #0000002e;
 	width: 290px;
 	height: 150px;
@@ -460,32 +454,31 @@ button a
 	margin-bottom: 10px;
 }
 
-.contenant_6
-{
+.contenant_6 {
+
 	position: static;
 }
 
-.contenant_6 a
-{
+.contenant_6 a {
+
 	text-decoration: none;
 	color: black;
 }
 
-.contenant_6:hover
-{
-	
+.contenant_6:hover {
+
 	transform: scale(1.07);
 }
 
-.texte_6
-{
+.texte_6 {
+
 	position: relative;
 	left: 20px;
 	bottom: 45px;
 }
 
-.photo_7
-{
+.photo_7 {
+
 	box-shadow: 0 0 16px #0000002e;
 	margin-bottom: 20px;
 	width: 290px;
@@ -494,47 +487,47 @@ button a
 	border-radius: 20px;	
 }
 
-.contenant_7
-{
+.contenant_7 {
+
 	position: static;
 }
 
-.contenant_7 a
-{
+.contenant_7 a {
+
 	text-decoration: none;
 	color: black;
 }
 
-.contenant_7:hover
-{	
+.contenant_7:hover {
+
 	transform: scale(1.07);
 }
 
-.texte_7
-{
+.texte_7 {
+
 	position: relative;
 	left: 20px;
 	bottom: 55px;
 }
 
-.fas
-{
+.fas {
+
 	color: #0065FC;
 }
 
-.far
-{
+.far {
+
 	color: #F2F2F2;
 }
 
-#basdepage h3
-{
+#basdepage h3 {
+
 	font-size: 16px;
 }
 
 
-#basdepage
-{
+#basdepage {
+
 	font-size: 14px;
 	padding-top: 25px;
 	padding-bottom: 25px; 
@@ -543,8 +536,8 @@ button a
 	line-height: 25px;
 } 
 
-#basdepage ul
-{
+#basdepage ul {
+	
 	margin-right: 220px;
 }
 
