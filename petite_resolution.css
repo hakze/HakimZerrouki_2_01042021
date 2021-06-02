@@ -1,4 +1,4 @@
-@media  all and (max-width: 1024px) {
+ {
     
     body {
 
@@ -22,85 +22,15 @@
 
 	.menu {
 		
-		display: none;
-	}
-
-	.menu_mobile {
-
-		display:block;
-		width: 100%;
-	}
-
-	.logo {
 		
-		font-size: 10px;
-
 	}
 
-	.logo_texte_mobile {
-
-		font-size: 18px;
-		text-decoration: none;
-		color: #0065FC;
-		float: right;
-		padding-top: 20px;
-	}
-
-	.nav_mobile {
-
-		display: flex;
-		width: auto;
-
-	}
-
-	.nav_mobile ul {
-
-		display: flex;
-	}
 
 	.logo {
 		
 		font-size: 10px;
 		margin-right: 60px;
 		margin-right: 10px;
-	}
-
-	#site_nav-mobile a {
-		
-		font-size: 18px;
-		text-decoration: none;
-	    color: #0065FC; 
-	    width: 100%;
-	}
-
-	
-	.site_nav-mobile_1 {   
-		
-		padding: 0px 54px 10px 54px;
-		border-bottom: 3px solid #0065FC;
-		margin-top: 20px;
-	}
-
-	.site_nav-mobile_2 {   
-		
-		padding: 0px 54px 10px 54px;
-		border-bottom: 3px solid #F2F2F2;
-		margin-top: 20px;	
-	}
-
-	.texte_mobile {
-
-		display: block;
-		
-	}
-	.texte_mobile h1 {
-
-		font-size: 20px;
-	}
-
-	.texte_mobile {
-
-		margin-bottom: 30px;
 	}
 
 	.texte {

@@ -1,55 +1,60 @@
 body {
-	width: auto;
+	
 	font-family: 'Raleway', cursive;
 	font-size: 15px;
-	margin: 0px;
-}
-
-#bloc_page {
-	margin-left: 110px;
-	margin-right: 110px;
 }
 
 h1 {
+
 	font-size: 18px;
 }
 
 h2 {
-	
-	font-size: 14px;
-}
+
+ 	font-size: 18px;
+ }
 
 ul {
 	
 	list-style-type: none;
 }
 
+header {
+
+    display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.menufix {
+
+	display: grid;
+	justify-content: flex-start;
+	align-items: center;
+	width: 1244px;
+}
+
 .menu {
 	
 	display: flex;
-	justify-content: left;
+	color: #0065FC;
 	align-items: center;
+	width: 1244px;
+	justify-content: space-between;
 }
 
 .logo {
 	
-	margin-right: 48%;
-}
-
-.menu_mobile {
 	
-	display: none;
-}
-
-.nav_mobile {
-	
-	display: none;
 }
 
 .site_nav {
 
 	display: inline-block;
-	margin-left: 70px;
+	min-width: 120px;
+	text-align: center;
+	justify-content: space-between;
+	
 }
 
 .site_nav a {
@@ -63,12 +68,12 @@ ul {
 
 	border-top: solid;
 	border-color: #0065FC;
-	padding: 35px 20px;
+	padding:  40px 0px 0px 0px;
 }
 
-.texte_mobile {     
+#site_nav_2 {
 
-	display: none;
+    color: #000000;
 }
 
 input {
@@ -90,7 +95,6 @@ button {
 	
 	font-size: 15px;
 	background-color: #0065FC;
-	color: white;
 	border: none;
 	border-radius: 0px 10px 10px 0px;
 	padding: 11px;
@@ -184,6 +188,24 @@ button a {
 #logements {
 
 	display: flex;
+	justify-content: center;
+}
+
+.hebergements {
+
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	margin-right: 30px;
+}
+
+.hebergements_a_Marseille {
+
+	margin: 40px 0px 40px 30px;
+}
+
+.hebergements_a_Marseille h2 {
+
+	margin-bottom: 20px;
 }
 
 .hotel_1 {
@@ -194,19 +216,6 @@ button a {
 .hotel_2{
 
 	display: flex;
-}
-
-.hebergements {
-
-	border: none;
-	padding: 20px 0px 0px 50px;
-	width: auto;
-	height: auto;
-	background-color:  #F2F2F2;
-	border-radius: 20px;
-	margin-right: 30px;
-	padding-left: 30px;
-	margin-bottom: 30px;
 }
 
 .mobile {
@@ -222,76 +231,80 @@ button a {
 	display: none;
 }	
 
-
 .photo_1 {
 
+	border: solid #ffffff 4px;
+	background-color: #ffffff;
 	box-shadow: 0 0 16px #0000002e;
 	width: 235px;
 	height: 110px;
-	border: solid #ffffff 4px;
 	padding-bottom: 70px;
 	border-radius: 20px;
-	margin-right: 30px;
-	margin-bottom: -30px;
 }
 
 .contenant_1 {
 
 	position: static;
-	
+	height: 189px;
+    width: 244px;
+    margin: 0px 30px 30px 0px;
 }
 
 .contenant_1 a {
 
 	text-decoration: none;
-	color: black;
+	color: #00000;
 }
 
 .contenant_1:hover {
 
-		transform: scale(1.07);
+	transform: scale(1.07);
 }
-
 
 .texte_1 {
 
 	position: relative;
+	color: #000000;
+    width: 180px;
 	left: 20px;
-	bottom:	40px;
-	line-height: 20px;text-decoration: none;
+	bottom:	70px;
+	line-height: 20px;
+	text-decoration: none;
 }
 
 .les_plus_populaires {
-
-	width: auto;
+	
 	border: none;
-	padding: 20px 30px 0px 30px;
-	background-color:  #F2F2F2;
-	border-radius:20px;
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	padding: 40px 30px 1px 30px;
 }
 
-.les_plus_populaires h1 {
+.les_plus_populaires h2 {
 
 	display:inline-flex;
 	margin-right: 120px;
+	margin-bottom: 20px;
+
 }
 
 .photo_2 {
-
-	box-shadow: 0 0 16px #0000002e;
+	
 	border: solid #ffffff 4px;
-	padding-right: 180px;	
+	background-color: #ffffff;
+	padding-right: 180px;
+	border-radius: 20px;
+	box-shadow: 0 0 16px #0000002e;	
 	width: 120px;
 	height: 130px;
-	border-radius: 20px;
-	margin-bottom: -50px;
 }
 
 .contenant_2 {
 
 	position: static;
-	width: 150px;
-	height: 165px
+    height: 140px;
+    width: 308px;
+    margin-bottom: 30px;
 }
 
 .contenant_2 a {
@@ -303,13 +316,15 @@ button a {
 .contenant_2:hover {
 	
 	transform: scale(1.07);
+
 }
 
 .texte_2 {
 
 	position: relative;
+	width: 150px;
 	left: 140px;
-	bottom: 80px;
+	bottom: 130px;
 	line-height: 20px;
 }
 
@@ -319,16 +334,22 @@ button a {
 	top: 40px;
 }
 
-.les_activites {
-
-	margin-top: 50px ;
-	margin-bottom: 30px;
+#les_activites {
+     
+	align-items: center;
+    display: grid;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
 }
 
 .lieu{
 
-	display: flex;
-	margin-top: 20px;
+	display: flex;	
+}
+
+.lieu h2 {
+
+	margin-bottom: 20px;
 }
 
 .mobile_1 {
@@ -355,12 +376,15 @@ button a {
 .contenant_3 {
 
 	position: static;
+	height: 470px;
+    width: 290px;
+    margin-right: 30px;
 }
 
 .contenant_3 a {
 
 	text-decoration: none;
-	color: black;
+	color: #000000;
 }
 
 .contenant_3:hover {
@@ -371,6 +395,7 @@ button a {
 .texte_3 {
 
 	position: relative;
+	width: 210px;					
 	left: 20px;
 	bottom: 35px;
 }
@@ -389,6 +414,10 @@ button a {
 .contenant_4 {
 
 	position: static;
+	height: 241px;
+    width: 290px;
+
+	margin: 0px 30px 30px 0px;
 }
 
 .contenant_4 a {
@@ -405,6 +434,7 @@ button a {
 .texte_4 {
 
 	position: relative;
+	width: 210px;
 	left: 20px;
 	bottom: 45px;
 }
@@ -420,8 +450,10 @@ button a {
 
 .contenant_5 {
 
-	position: static;
-}
+	position: static;	
+	height: 200px;
+    width: 290px;
+}					
 
 .contenant_5 a {
 
@@ -437,6 +469,7 @@ button a {
 .texte_5 {
 
 	position: relative;
+	width: 210px;
 	left: 20px;
 	bottom: 35px;
 }
@@ -453,7 +486,10 @@ button a {
 
 .contenant_6 {
 
-	position: static;
+	position: static;	
+	height: 200px;
+    width: 290px;
+    margin-bottom: 30px;																																							
 }
 
 .contenant_6 a {
@@ -470,6 +506,7 @@ button a {
 .texte_6 {
 
 	position: relative;
+	width: 210px;
 	left: 20px;
 	bottom: 45px;
 }
@@ -487,6 +524,8 @@ button a {
 .contenant_7 {
 
 	position: static;
+	height: 241px;
+    width: 290px;
 }
 
 .contenant_7 a {
@@ -503,6 +542,7 @@ button a {
 .texte_7 {
 
 	position: relative;
+	width: 210px;
 	left: 20px;
 	bottom: 55px;
 }
@@ -517,21 +557,29 @@ button a {
 	color: #F2F2F2;
 }
 
-#basdepage h3 {
 
-	font-size: 16px;
+footer {
+
+	display: grid;
+    justify-content: center;
+    align-items: center;
 }
-
 
 #basdepage {
 
 	font-size: 14px;
+	background-color:  #F2F2F2;
+	width: 1500px;
+	display: flex;
 	padding-top: 25px;
 	padding-bottom: 25px; 
-	background-color:  #F2F2F2;
-	display: flex;	
 	line-height: 25px;
 } 
+
+#basdepage h3 {
+
+	font-size: 16px;
+}
 
 #basdepage ul {
 	
