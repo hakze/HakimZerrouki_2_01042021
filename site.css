@@ -40,12 +40,7 @@ header {
 	color: #0065FC;
 	align-items: center;
 	width: 1244px;
-	justify-content: space-between;
-}
-
-.logo {
-	
-	
+	justify-content: ;
 }
 
 .site_nav {
@@ -60,21 +55,48 @@ header {
 .site_nav a {
 
 	text-decoration:none;
-	color: #0065FC;
-}
-
+	color: #0065FC;     } 
 
 #site_nav_1 {
 
-	border-top: solid;
+	border-top: ;
 	border-color: #0065FC;
-	padding:  40px 0px 0px 0px;
+	
 }
 
 #site_nav_2 {
 
     color: #000000;
 }
+
+#site_nav_1 {
+        
+	border-top: none;
+	border-bottom: none;
+	padding:  0px 0px 0px 0px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+	#site_nav_2 {
+
+	border-bottom: none;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
+}
+
+	#site_nav_3 {
+
+	display: flex;
+	align-items: center;
+	grid-area: 0/0/0/0;
+	justify-content: flex-end;
+	margin-right: 20px;
+}
+
 
 input {
 
@@ -218,7 +240,7 @@ button a {
 	display: flex;
 }
 
-.mobile {
+.photo_mobile {
 
  	box-shadow: 0 0 16px #0000002e;
 	width: 235px;
@@ -282,8 +304,8 @@ button a {
 
 .les_plus_populaires h2 {
 
-	display:inline-flex;
-	margin-right: 120px;
+	display: inline-flex;
+	width: 280px;
 	margin-bottom: 20px;
 
 }
@@ -352,7 +374,7 @@ button a {
 	margin-bottom: 20px;
 }
 
-.mobile_1 {
+.photo_mobile_1 {
 
 	box-shadow: 0 0 16px #0000002e;
 	margin-right: 0px;
@@ -569,7 +591,7 @@ footer {
 
 	font-size: 14px;
 	background-color:  #F2F2F2;
-	width: 1500px;
+	width: 1480px;
 	display: flex;
 	padding-top: 25px;
 	padding-bottom: 25px; 

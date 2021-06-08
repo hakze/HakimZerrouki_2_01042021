@@ -1,74 +1,94 @@
- {
+@media  all  and ( max-width: 1024px) {
     
     body {
 
     	font-size: 15px;
-    	display: block;
     	margin:  0px;
     }
 
-    #bloc_page {	
-		
-		width: auto;
-		margin: 0px;
+    header {
+
+	    display: block;
+		justify-content: center;
+		align-items: center;
 	}
+
 
 	.menufix {
 		
-		width: 100%;
-		margin-left: 20px;
-		margin-bottom: 50px;
+		width: auto;
 	}
 
 	.menu {
 		
-		
+		display: grid;
+	    width: 100%;
 	}
 
 
 	.logo {
 		
 		font-size: 10px;
-		margin-right: 60px;
-		margin-right: 10px;
+		margin-left: 20px;
+	
+	}
+
+	.site_nav {
+
+		width: auto;
+	}
+
+	#site_nav_1 {
+        
+        border-top: none;
+        border-bottom: 3px solid;
+        padding:  0px 0px 10px 0px;
+	    align-items: center;
+	    display: flex;
+	    justify-content: center;
+	    margin: 20px 0px 0px 0px;
+	}
+
+	#site_nav_2 {
+
+		border-bottom: 3px solid #F2F2F2;
+		padding:  0px 0px 10px 0px;
+		align-items: center;
+	    display: flex;
+	    justify-content: center;
+	    margin: 20px 0px 0px 0px;
+}
+ 
+	#site_nav_3 {
+
+	    font-weight: bold;
+		display: flex;
+	    align-items: center;
+	    grid-area: 1/2/-1/2;
+	    justify-content: flex-end;
+        margin-right: 20px;
 	}
 
 	.texte {
 
-		display: none;
+		width: 251px;
+    	margin: 20px 20px 20px 20px;
 	}
 
-	.filtre { 
-		font-size: 18px;
-		display: inline-block;	
-		flex-direction: column;	
-		margin-top: 30px;	
-	}
-
-	.filtre h2 {
-
-		font-size: 18px;
-	}
-
-	ul {
-		margin-left: -55px;
-	}
-
-	.nav {
-			
-		border: solid 3px #F2F2F2;
-		border-left: none;
-		border-radius:  30px;
-		padding-right: 20px;		
-		margin: 0px 0px 20px 0px;	
-		margin-left: 16px;
-	}
+	
 	
 	button a {
+
 		text-decoration: none;
 		color: #ffffff;
 		display: none;
 		
+	}
+
+	.rechercher {
+
+		margin-left: 20px;
+    	width: 305px;
 	}
 
 	.rechercher i {
@@ -102,18 +122,103 @@
     	border-radius: 10px;
 	}
 
+	.filtre { 
+
+		font-size: 18px;
+		display: block;	
+		flex-direction: column;	
+		margin: 10px;
+	}
+
+	.filtre a {
+
+		
+	}
+	.filtre h2 {
+
+		font-size: 18px;
+	}
+
+	.filtre ul{
+
+		padding: 0;
+	}
+
+	.nav {
+			
+		border: solid 3px #F2F2F2;
+		border-left: none;
+		border-radius:  30px;		
+		margin: 0px 0px 20px 0px;
+	}
+
 	.information {
+
 		display: flex;
-		margin-bottom: 20px;
+		margin: 0px 0px 20px 20px;
 	}
 
 	#logements {
+
 		display: flex;
 		flex-direction: column-reverse;
+		
 	}
 
-    
-    .hotel_1 {
+	.les_plus_populaires {
+		
+		border: none;
+		background-color:  #F2F2F2;
+		border-radius: 0px;
+	   	padding: 20px 20px 10px 20px;
+	}
+ 	
+ 	.les_plus_populaires h2 {
+
+		display: inline-flex;
+		width: 170px;
+		margin-bottom: 20px;
+	}
+
+
+	.photo_2 {
+		
+		box-shadow: 0 0 16px #0000002e;
+		border: solid #ffffff 4px ;
+		padding-right: 186px;
+	    width: 130px;
+	    height: 140px;
+		border-radius: 20px;
+	}
+	
+	.contenant_2 {
+
+	    height: 148px;
+	    width: 327px;
+	}
+
+	.texte_2 {
+		
+	    left: 147px;
+    	bottom: 136px;
+	}
+
+	.hebergements {
+
+		border: none;
+		border-radius: 0px;
+		width: auto;
+		height: auto;
+		background-color: #ffffff;
+		margin: 0;	
+	}
+
+	.hebergements_a_Marseille {
+
+	   	margin: 0px 20px 20px 20px;
+	}
+
+	.hotel_1 {
 		display: flex;
 		flex-direction: column;
 	}
@@ -123,115 +228,68 @@
 		flex-direction: column;
 	}
 
-	.hebergements {
-		border: none;
-		border-radius: 0px;
-		width: auto;
-		height: auto;
-		padding-left: 20px;
-		background-color: #ffffff;
-		margin-bottom: -20px;
-	}
-
-	.hebergements h1 {
-
-		margin-bottom: 30px;
-	}
-
-	.mobile {
+	.photo_mobile {
 		box-shadow: 0 0 16px #0000002e;
-		width: 355px;
-		height: 110px;
 		border: solid #ffffff 4px;
+		width: 315px;
+		height: 110px;
 		padding-bottom: 70px;
 		border-radius: 20px;
-		margin-right: 30px;
-		margin-bottom: -30px;
 		display: flex;
 	}
 
 	.contenant_1 {
 
-		margin-bottom: -10px;
+		width: 320px;
+		height: 190px;
+		margin: 0px 0px 20px 0px;
+	}
+
+	.texte_1 {
+
+	    width: 180px;
+		left: 20px;
+		bottom:	40px;
+	
 	}
 
 	.photo_1 {
+		
 		box-shadow: 0 0 16px #0000002e;
 		width: 335px;
 		height: 110px;
-		background-color:  #ffffff;
+		background-color: #ffffff;
 		display: none;		
 	}
 
-	.les_plus_populaires {
-		width: 100%;
-		border: none;
-		background-color:  #F2F2F2;
-		border-radius: 0px;
-		padding-left: 20px;
-		padding-right: 20px;
-		padding-bottom: 20px;	
-	}
- 	
- 	.les_plus_populaires h1 {
-
- 		margin-bottom: 30px;
- 	}
-
-
-	.photo_2 {
-		box-shadow: 0 0 16px #0000002e;
-		border: solid #ffffff 4px ;
-		padding-right: 215px;	
-		width: 140px;
-		height: 150px;
-		border-radius: 20px;
-	}
-	
-	.contenant_2 {
-
-		margin-bottom: 10px;
+	#les_activites {
+     
+	   	display: block; 
+      	margin: 50px 20px 50px 20px;
 	}
 
-	.texte_2 {
-		
-		position: relative;
-		left: 160px;
-		bottom: 90px;
-		line-height: 20px;
-	}
-
-	.les_activites {   
-
-		width: auto;
-		margin-left: 20px;		
-	}
-
-	.les_activites h1 {
-
-		margin-bottom: 25px;
-	}
 	.lieu {
 
 		display: flex;
 		flex-direction: column;
-		margin-top: 0px;
+		
 	}
 
-	.mobile_1 {
+	.photo_mobile_1 {
 
 		box-shadow: 0 0 16px #0000002e;
-		margin-right: 0px;
-		height: 110px;
-		width: 359px;
+		height: 130px;
+		width: 326px;
 		padding-bottom: 50px;
 		border-radius: 20px;
-		display: flex; 
+		display: flex;
 	}
 
 	.contenant_3 {
 
-	   	margin-bottom: 10px;
+ 		height: 180px;
+ 		width: 327px;
+ 		margin-bottom: 20px;
 	}
 
 	.photo_3 {
@@ -247,7 +305,9 @@
 
 	.contenant_4 {
 
-	   	margin-bottom: 10px;
+	   	height: 180px;
+ 		width: 327px;
+ 		margin-bottom: 20px;
 	}
 
 	.photo_4 {
@@ -264,7 +324,9 @@
 
 	.contenant_5 {
 
-	   	margin-bottom: 10px;
+	   	height: 180px;
+ 		width: 327px;
+ 		margin-bottom: 20px;	
 	}
 
 	.photo_5 {		
@@ -279,8 +341,9 @@
 
 	.contenant_6 {
 
-	   	margin-bottom: 10px;
-	}
+	   	height: 180px;
+ 		width: 327px;
+ 		margin-bottom: 20px;	}
 
 	.photo_6 {
 
@@ -302,7 +365,9 @@
 
 	.contenant_7 {
 
-	   	margin-bottom: 10px;
+	   	height: 180px;
+ 		width: 327px;
+ 		margin-bottom: 20px;
 	}
 
 	.photo_7 {
@@ -323,18 +388,24 @@
 		bottom: 35px;
 	}
 
+	footer {
+
+		display: grid;
+	    justify-content: initial;
+	    align-items: center;
+	   
+	}
+
 	#basdepage {	
-	
-		width: 100%;
+		
+		background-color:  #F2F2F2;
+		font-size: 14px;
+		line-height: 25px;
+		width: auto;
 		display: flex;
 		flex-direction: column;
-		font-size: 14px;
-		padding-top: 25px;
-		padding-bottom: 25px;
-		padding-left: 40px;
-		background-color:  #F2F2F2;
-		line-height: 25px;
-		margin-right: 0px;
+		
+		
 	} 
 }
 
