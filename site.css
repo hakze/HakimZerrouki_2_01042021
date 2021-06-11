@@ -39,8 +39,11 @@ header {
 	display: flex;
 	color: #0065FC;
 	align-items: center;
-	width: 1244px;
-	justify-content: ;
+	justify-content: space-between;
+}
+
+.logo {
+	
 }
 
 .site_nav {
@@ -90,9 +93,9 @@ header {
 
 	#site_nav_3 {
 
+	font-weight: bold;
 	display: flex;
 	align-items: center;
-	grid-area: 0/0/0/0;
 	justify-content: flex-end;
 	margin-right: 20px;
 }
@@ -120,13 +123,10 @@ button {
 	border: none;
 	border-radius: 0px 10px 10px 0px;
 	padding: 11px;
+	color: #ffffff;	
 }
 
-button a {
-	
-	text-decoration: none;
-	color: #ffffff
-}
+
 
 .rechercher .fa-search {
 
@@ -163,31 +163,13 @@ button a {
 	color: black;
 }
 
-.nav strong {
+.fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog {
 
-	margin-left: -5px;
-}
-.nav a {
-
-	text-decoration: none;
-	color: black;
-	margin-left: -5px;
-}
-
-.nav:hover {
-
-	background: #DEEBFF;
-	transform: scale(1.07);
-}
-
-#icone_eco ,.fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog {
-
-	margin-left: -10px;
-}
-
-.fa {
-
-	color: #DEEBFF;
+	background-color: #DEEBFF;
+    border-radius: 20px;
+    padding: 11px;
+    margin-right: 5px;
+    margin-left: -2px;
 }
 
 .information {
@@ -219,6 +201,11 @@ button a {
 	border-radius: 20px;
 	margin-right: 30px;
 }
+
+.fa {
+
+	color: #F2F2F2;
+} 
 
 .hebergements_a_Marseille {
 

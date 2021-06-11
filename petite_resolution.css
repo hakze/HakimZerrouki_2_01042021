@@ -2,7 +2,7 @@
     
     body {
 
-    	font-size: 15px;
+    	font-size: 14px;
     	margin:  0px;
     }
 
@@ -23,6 +23,7 @@
 		
 		display: grid;
 	    width: 100%;
+	    justify-content: normal;
 	}
 
 
@@ -57,7 +58,7 @@
 	    display: flex;
 	    justify-content: center;
 	    margin: 20px 0px 0px 0px;
-}
+    }
  
 	#site_nav_3 {
 
@@ -77,12 +78,11 @@
 
 	
 	
-	button a {
+	.info-search {
 
 		text-decoration: none;
 		color: #ffffff;
-		display: none;
-		
+		display: none;		
 	}
 
 	.rechercher {
@@ -124,10 +124,10 @@
 
 	.filtre { 
 
-		font-size: 18px;
+		
 		display: block;	
 		flex-direction: column;	
-		margin: 10px;
+		margin: 20px;
 	}
 
 	.filtre a {
@@ -139,22 +139,25 @@
 		font-size: 18px;
 	}
 
-	.filtre ul{
+	.filtre ul {
 
 		padding: 0;
 	}
 
+	.filtre li{
+
+		margin: 0px 20px 20px 0px;
+	}
+
 	.nav {
-			
-		border: solid 3px #F2F2F2;
-		border-left: none;
-		border-radius:  30px;		
-		margin: 0px 0px 20px 0px;
+					
+		margin: 0px 0px 0px 20px;
 	}
 
 	.information {
 
 		display: flex;
+		width: 310px;
 		margin: 0px 0px 20px 20px;
 	}
 
@@ -167,10 +170,14 @@
 
 	.les_plus_populaires {
 		
-		border: none;
+		border: none;		
 		background-color:  #F2F2F2;
 		border-radius: 0px;
+		display: block;
+		justify-content: center;
 	   	padding: 20px 20px 10px 20px;
+	   	width: auto;
+	   	min-width: 320px;
 	}
  	
  	.les_plus_populaires h2 {
@@ -178,6 +185,7 @@
 		display: inline-flex;
 		width: 170px;
 		margin-bottom: 20px;
+		margin-right: 130px;
 	}
 
 
